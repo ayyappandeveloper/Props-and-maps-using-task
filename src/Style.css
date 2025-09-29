@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(207, 212, 212);
+    margin: 20px 0px 0px 20px;
+
+}
+
+.container-pets {
+    border: 2px solid black;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    flex-basis: 20%;
+}
+
+.container-pets img {
+    width: 290px;
+    height: 290px;
+
+}
+
+.container-pets h1 {
+    font-size: 20px;
+
+
+}
